@@ -50,6 +50,9 @@
 	  <None Remove="Services\" />
 	  <None Remove="Views\" />
 	  <None Remove="ViewModels\" />
+	  <None Remove="Newtonsoft.Json" />
+	  <None Remove="Refractored.MvvmHelpers" />
+	  <None Remove="CommunityToolkit.Mvvm" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Models\" />
@@ -64,5 +67,10 @@
 	  <MauiXaml Condition=" '$(EnableDefaultXamlItems)' == 'true' " Update="ViewModels\MainPage.xaml">
 	    <SubType>Designer</SubType>
 	  </MauiXaml>
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
+	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
 	</ItemGroup>
 </Project>

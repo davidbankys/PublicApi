@@ -1,9 +1,9 @@
 ﻿using System;
 namespace PublicApiApplication.ViewModels
 {
-    public class PublicapiListModels
+    public class PublicapiListViewModel
     {
-        public PublicapiListModels()
+        public PublicapiListViewModel()
         {
         }
     }

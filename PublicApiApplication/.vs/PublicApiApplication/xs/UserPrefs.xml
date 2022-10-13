@@ -3,10 +3,13 @@
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/PublicapiDataStore.cs">
     <Files>
       <File FileName="Models/publicapi.cs" Line="10" Column="35" />
       <File FileName="Views/MainPage.xaml" Line="5" Column="58" />
+      <File FileName="Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ViewModels/PublicapiListModels.cs" Line="24" Column="2" />
+      <File FileName="Services/PublicapiDataStore.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,8 +17,10 @@
           <Node name="PublicApiApplication" expanded="True">
             <Node name="PublicApiApplication" expanded="True">
               <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" selected="True" />
+                <Node name="MainPage.xaml" expanded="True" />
               </Node>
               <Node name="AppShell.xaml" expanded="True" />
             </Node>
