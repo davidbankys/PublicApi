@@ -1,15 +1,14 @@
 ﻿using PublicApiApplication.Services;
 using PublicApiApplication;
-using PublicApiApplication.Services;
 
-namespace Population_App;
+namespace PublicApiApplication;
 
 public partial class App : Application
 {
     public App()
     {
         InitializeComponent();
-        DependencyService.Register<PublicapiDataStore>();
+        DependencyService.Register<PublicapiDataStoreAPI>();
         DependencyService.Register<WebClientService>();
         MainPage = new AppShell();
     }

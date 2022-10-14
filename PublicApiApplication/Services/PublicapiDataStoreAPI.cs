@@ -1,9 +1,9 @@
-﻿using EmployeeApplication.Models;
+﻿using PublicApiApplication.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
-using PublicApiApplication.Services;
 using System.Dynamic;
+using static PublicApiApplication.Models.publicapi;
 
 namespace PublicApiApplication.Services
 {
@@ -16,11 +16,11 @@ namespace PublicApiApplication.Services
             var service = DependencyService.Get<IWebClientService>();
             var json = await service.GetAsync($"{API}?results={count}");
 
-            var employees = PublicapiBuilder(json);
+            var publicapi = PublicapiBuilder(json);
 
             return publicapi;
         }
-        private List<Publicapi> PublicapiBuilder(string json)
+        private List<publicapi> PublicapiBuilder(string json)
         {
 
             var response = JsonConvert.DeserializeObject<dynamic>(json);
@@ -32,9 +32,9 @@ namespace PublicApiApplication.Services
             {
                 var firstName = user.name.first.ToString();
                 var lastName = user.name.last.ToString();
-                var name = $"{firstName} {lastName}";
-                var email = user.email.ToString();
-                var image = user.picture.medium.ToString();
+                var api = $"{firstName} {lastName}";
+                var description = user.email.ToString();
+                var link = user.picture.medium.ToString();
 
                 publicapi.Add(new Publicapi(api, description, link));
 

@@ -1,8 +1,8 @@
 ﻿using CommunityToolkit.Maui;
-using Population_App;
 using PublicApiApplication;
 
-namespace EmployeeApplication;
+
+namespace PublicApiApplication;
 
 public static class MauiProgram
 {

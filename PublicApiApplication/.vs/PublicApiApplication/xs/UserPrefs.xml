@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="{B2B91CC0-0B2F-4463-BD9C-FE711E1C2BB2}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_XL_API_32" />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Services/PublicapiDataStore.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/PublicapiDataStoreAPI.cs">
     <Files>
-      <File FileName="Models/publicapi.cs" Line="10" Column="35" />
-      <File FileName="Views/MainPage.xaml" Line="5" Column="58" />
-      <File FileName="Views/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ViewModels/PublicapiListModels.cs" Line="24" Column="2" />
-      <File FileName="Services/PublicapiDataStore.cs" Line="1" Column="1" />
+      <File FileName="Views/MainPage.xaml" Line="27" Column="19" />
+      <File FileName="Views/MainPage.xaml.cs" Line="8" Column="31" />
+      <File FileName="ViewModels/PublicapiListViewModels.cs" Line="5" Column="52" />
+      <File FileName="Services/PublicapiDataStoreAPI.cs" Line="21" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,6 +21,7 @@
               <Node name="Views" expanded="True">
                 <Node name="MainPage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
             </Node>
           </Node>
@@ -35,6 +35,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.PublicApiApplication FirstBuild="True" PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.PublicApiApplication PreferredExecutionTarget="Android.Pixel_XL_API_32" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
